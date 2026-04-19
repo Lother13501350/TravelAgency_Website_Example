@@ -1,0 +1,887 @@
+{
+    "company": {
+        "name": "悠遊旅行社",
+        "nameEn": "YouYou Travel",
+        "slogan": "每一趟旅程，都是一個全新的自己",
+        "description": "成立於 2008 年，深耕台灣旅遊市場超過 15 年，專注亞洲與歐洲精品小團行程，服務超過 12,000 名旅客。",
+        "phone": "02-2345-6789",
+        "lineId": "@youyou_travel",
+        "email": "service@youyoutravel.com.tw",
+        "address": "台北市大安區忠孝東路四段 101 號 8 樓",
+        "businessHours": "週一至週五 09:00–18:00，週六 10:00–17:00",
+        "license": "交觀綜字第 1234 號",
+        "social": {
+            "facebook": "https://facebook.com/youyoutravel",
+            "instagram": "https://instagram.com/youyoutravel",
+            "line": "https://line.me/R/ti/p/@youyou_travel"
+        },
+        "stats": {
+            "yearsInBusiness": 15,
+            "totalTravelers": 12000,
+            "destinationCount": 32,
+            "satisfactionRate": 98
+        }
+    },
+    "packages": [
+        {
+            "id": "pkg-001",
+            "name": "日本北海道賞雪 5 日",
+            "destination": "北海道，日本",
+            "destinationId": "dest-001",
+            "coverImage": "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?w=800",
+            "price": 45800,
+            "currency": "TWD",
+            "days": 5,
+            "nights": 4,
+            "groupSize": {
+                "min": 10,
+                "max": 20
+            },
+            "departureDates": [
+                "2025-01-15",
+                "2025-01-22",
+                "2025-02-05",
+                "2025-02-12"
+            ],
+            "difficulty": "輕鬆",
+            "tags": [
+                "賞雪",
+                "溫泉",
+                "美食",
+                "家庭"
+            ],
+            "highlights": [
+                "函館夜景",
+                "小樽運河",
+                "旭山動物園",
+                "登別溫泉"
+            ],
+            "includes": [
+                "來回機票",
+                "四晚住宿",
+                "每日早餐",
+                "全程導遊",
+                "景點門票"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險"
+            ],
+            "isHot": true,
+            "isFeatured": true,
+            "rating": 4.9,
+            "reviewCount": 127
+        },
+        {
+            "id": "pkg-002",
+            "name": "義大利文藝復興深度 8 日",
+            "destination": "羅馬 / 佛羅倫斯 / 威尼斯",
+            "destinationId": "dest-004",
+            "coverImage": "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=800",
+            "price": 89900,
+            "currency": "TWD",
+            "days": 8,
+            "nights": 7,
+            "groupSize": {
+                "min": 8,
+                "max": 15
+            },
+            "departureDates": [
+                "2025-03-10",
+                "2025-04-07",
+                "2025-05-05",
+                "2025-09-08"
+            ],
+            "difficulty": "一般",
+            "tags": [
+                "文化",
+                "藝術",
+                "美食",
+                "蜜月"
+            ],
+            "highlights": [
+                "梵蒂岡博物館",
+                "烏菲茲美術館",
+                "威尼斯貢多拉",
+                "托斯卡尼酒莊"
+            ],
+            "includes": [
+                "來回商務艙機票",
+                "七晚精品飯店",
+                "每日早晚餐",
+                "專業中文導遊",
+                "全程景點票券"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險"
+            ],
+            "isHot": false,
+            "isFeatured": true,
+            "rating": 4.8,
+            "reviewCount": 89
+        },
+        {
+            "id": "pkg-003",
+            "name": "峇里島身心靈療癒 6 日",
+            "destination": "烏布 / 水明漾，峇里島",
+            "destinationId": "dest-002",
+            "coverImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800",
+            "price": 32500,
+            "currency": "TWD",
+            "days": 6,
+            "nights": 5,
+            "groupSize": {
+                "min": 2,
+                "max": 12
+            },
+            "departureDates": [
+                "2025-02-14",
+                "2025-03-21",
+                "2025-04-18",
+                "2025-05-16"
+            ],
+            "difficulty": "輕鬆",
+            "tags": [
+                "療癒",
+                "SPA",
+                "文化",
+                "蜜月",
+                "瑜伽"
+            ],
+            "highlights": [
+                "烏布皇宮",
+                "聖泉廟",
+                "梯田健行",
+                "傳統按摩 SPA"
+            ],
+            "includes": [
+                "來回機票",
+                "五晚私人泳池別墅",
+                "每日早餐",
+                "接送服務",
+                "一次 SPA 體驗"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險"
+            ],
+            "isHot": true,
+            "isFeatured": false,
+            "rating": 4.7,
+            "reviewCount": 203
+        },
+        {
+            "id": "pkg-004",
+            "name": "冰島極光追蹤 7 日",
+            "destination": "雷克雅維克，冰島",
+            "destinationId": "dest-005",
+            "coverImage": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800",
+            "price": 112000,
+            "currency": "TWD",
+            "days": 7,
+            "nights": 6,
+            "groupSize": {
+                "min": 6,
+                "max": 12
+            },
+            "departureDates": [
+                "2024-12-20",
+                "2025-01-10",
+                "2025-01-24",
+                "2025-02-07"
+            ],
+            "difficulty": "進階",
+            "tags": [
+                "極光",
+                "自然",
+                "冒險",
+                "攝影"
+            ],
+            "highlights": [
+                "黃金圈",
+                "藍湖地熱溫泉",
+                "傑古沙龍冰河湖",
+                "極光夜觀"
+            ],
+            "includes": [
+                "來回機票",
+                "六晚住宿",
+                "每日早餐",
+                "專業極光攝影導師",
+                "全程冰島語英語導遊"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險",
+                "極光保證費"
+            ],
+            "isHot": true,
+            "isFeatured": true,
+            "rating": 5.0,
+            "reviewCount": 54
+        },
+        {
+            "id": "pkg-005",
+            "name": "京阪神楓葉秋色 6 日",
+            "destination": "京都 / 大阪 / 神戶",
+            "destinationId": "dest-001",
+            "coverImage": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=800",
+            "price": 38900,
+            "currency": "TWD",
+            "days": 6,
+            "nights": 5,
+            "groupSize": {
+                "min": 10,
+                "max": 25
+            },
+            "departureDates": [
+                "2025-11-10",
+                "2025-11-17",
+                "2025-11-24"
+            ],
+            "difficulty": "輕鬆",
+            "tags": [
+                "楓葉",
+                "文化",
+                "美食",
+                "購物"
+            ],
+            "highlights": [
+                "嵐山竹林",
+                "清水寺",
+                "道頓堀",
+                "有馬溫泉"
+            ],
+            "includes": [
+                "來回機票",
+                "五晚住宿",
+                "每日早餐",
+                "全程中文導遊"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險"
+            ],
+            "isHot": false,
+            "isFeatured": false,
+            "rating": 4.6,
+            "reviewCount": 178
+        },
+        {
+            "id": "pkg-006",
+            "name": "土耳其古文明探索 10 日",
+            "destination": "伊斯坦堡 / 卡帕多奇亞 / 棉花堡",
+            "destinationId": "dest-006",
+            "coverImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=800",
+            "price": 78500,
+            "currency": "TWD",
+            "days": 10,
+            "nights": 9,
+            "groupSize": {
+                "min": 10,
+                "max": 20
+            },
+            "departureDates": [
+                "2025-04-14",
+                "2025-05-12",
+                "2025-09-15",
+                "2025-10-06"
+            ],
+            "difficulty": "一般",
+            "tags": [
+                "文化",
+                "歷史",
+                "熱氣球",
+                "攝影"
+            ],
+            "highlights": [
+                "藍色清真寺",
+                "熱氣球日出",
+                "棉花堡溫泉",
+                "地下城市"
+            ],
+            "includes": [
+                "來回機票",
+                "九晚住宿",
+                "每日早晚餐",
+                "洞穴飯店一晚",
+                "熱氣球體驗"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險"
+            ],
+            "isHot": false,
+            "isFeatured": false,
+            "rating": 4.8,
+            "reviewCount": 61
+        },
+        {
+            "id": "pkg-007",
+            "name": "越南南北縱貫 8 日",
+            "destination": "河內 / 峴港 / 胡志明市",
+            "destinationId": "dest-003",
+            "coverImage": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800",
+            "price": 29800,
+            "currency": "TWD",
+            "days": 8,
+            "nights": 7,
+            "groupSize": {
+                "min": 8,
+                "max": 20
+            },
+            "departureDates": [
+                "2025-02-20",
+                "2025-03-13",
+                "2025-04-10",
+                "2025-10-16"
+            ],
+            "difficulty": "輕鬆",
+            "tags": [
+                "美食",
+                "文化",
+                "海灘",
+                "歷史"
+            ],
+            "highlights": [
+                "下龍灣遊船",
+                "會安古城",
+                "美山聖地",
+                "湄公河三角洲"
+            ],
+            "includes": [
+                "來回機票",
+                "七晚住宿",
+                "每日早餐",
+                "國內段機票",
+                "全程導遊"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險"
+            ],
+            "isHot": false,
+            "isFeatured": false,
+            "rating": 4.5,
+            "reviewCount": 95
+        },
+        {
+            "id": "pkg-008",
+            "name": "紐西蘭南島壯闊山河 9 日",
+            "destination": "皇后鎮 / 米佛峽灣，紐西蘭",
+            "destinationId": "dest-005",
+            "coverImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+            "price": 95000,
+            "currency": "TWD",
+            "days": 9,
+            "nights": 8,
+            "groupSize": {
+                "min": 6,
+                "max": 14
+            },
+            "departureDates": [
+                "2025-01-06",
+                "2025-02-03",
+                "2025-12-08"
+            ],
+            "difficulty": "進階",
+            "tags": [
+                "冒險",
+                "自然",
+                "健行",
+                "攝影"
+            ],
+            "highlights": [
+                "米佛峽灣遊輪",
+                "皇后鎮高空跳傘",
+                "庫克山健行",
+                "螢火蟲洞"
+            ],
+            "includes": [
+                "來回機票",
+                "八晚住宿",
+                "每日早餐",
+                "峽灣遊輪票",
+                "高空跳傘體驗"
+            ],
+            "excludes": [
+                "個人消費",
+                "小費",
+                "旅遊平安險"
+            ],
+            "isHot": false,
+            "isFeatured": false,
+            "rating": 4.9,
+            "reviewCount": 42
+        }
+    ],
+    "destinations": [
+        {
+            "id": "dest-001",
+            "country": "日本",
+            "countryCode": "JP",
+            "cities": [
+                "東京",
+                "大阪",
+                "京都",
+                "北海道",
+                "沖繩"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800",
+            "description": "融合傳統與現代的島國，四季皆有不同風情，美食、文化與自然景觀令旅人流連忘返。",
+            "bestSeason": "3–5月（櫻花）、11–12月（楓葉）",
+            "climate": "四季分明，溫帶季風氣候",
+            "language": "日語",
+            "currency": "日圓 (JPY)",
+            "attractions": [
+                "富士山",
+                "淺草寺",
+                "嵐山",
+                "道頓堀",
+                "美瑛"
+            ],
+            "packageCount": 12
+        },
+        {
+            "id": "dest-002",
+            "country": "印尼",
+            "countryCode": "ID",
+            "cities": [
+                "峇里島",
+                "雅加達",
+                "龍目島"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800",
+            "description": "千島之國，峇里島以神廟、梯田與海灘聞名，是全球最受歡迎的度假勝地之一。",
+            "bestSeason": "4–10月（乾季）",
+            "climate": "熱帶氣候，全年高溫",
+            "language": "印尼語、峇里語",
+            "currency": "印尼盾 (IDR)",
+            "attractions": [
+                "烏布皇宮",
+                "聖泉廟",
+                "坦納洛特廟",
+                "德哥拉朗梯田"
+            ],
+            "packageCount": 5
+        },
+        {
+            "id": "dest-003",
+            "country": "越南",
+            "countryCode": "VN",
+            "cities": [
+                "河內",
+                "峴港",
+                "胡志明市",
+                "會安",
+                "下龍灣"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800",
+            "description": "細長的S形國土，從北到南各具風情，融合法式殖民遺跡、漁村古城與熱帶海灘。",
+            "bestSeason": "11–4月（北部較乾燥）",
+            "climate": "熱帶氣候，南北差異明顯",
+            "language": "越南語",
+            "currency": "越南盾 (VND)",
+            "attractions": [
+                "下龍灣",
+                "會安燈籠街",
+                "美山聖地",
+                "湄公河三角洲"
+            ],
+            "packageCount": 4
+        },
+        {
+            "id": "dest-004",
+            "country": "義大利",
+            "countryCode": "IT",
+            "cities": [
+                "羅馬",
+                "佛羅倫斯",
+                "威尼斯",
+                "米蘭",
+                "阿瑪菲"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=800",
+            "description": "文藝復興的搖籃，每一座城市都是露天博物館，美食、時尚與歷史在此完美交融。",
+            "bestSeason": "4–6月、9–10月",
+            "climate": "地中海型氣候",
+            "language": "義大利語",
+            "currency": "歐元 (EUR)",
+            "attractions": [
+                "梵蒂岡",
+                "羅馬競技場",
+                "烏菲茲美術館",
+                "威尼斯大運河"
+            ],
+            "packageCount": 6
+        },
+        {
+            "id": "dest-005",
+            "country": "冰島",
+            "countryCode": "IS",
+            "cities": [
+                "雷克雅維克",
+                "阿克雷里"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800",
+            "description": "地球上最接近北極光的國家，火山、冰川、溫泉共存，景致震撼，攝影師的天堂。",
+            "bestSeason": "9–3月（極光）、6–8月（午夜陽光）",
+            "climate": "極地海洋氣候，善變",
+            "language": "冰島語、英語",
+            "currency": "冰島克朗 (ISK)",
+            "attractions": [
+                "黃金圈",
+                "藍湖溫泉",
+                "傑古沙龍冰河湖",
+                "辛格韋利爾國家公園"
+            ],
+            "packageCount": 3
+        },
+        {
+            "id": "dest-006",
+            "country": "土耳其",
+            "countryCode": "TR",
+            "cities": [
+                "伊斯坦堡",
+                "卡帕多奇亞",
+                "棉花堡",
+                "安塔利亞"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=800",
+            "description": "橫跨歐亞兩洲的神秘古國，奧斯曼帝國的遺跡與現代都會並存，熱氣球日出震撼人心。",
+            "bestSeason": "4–5月、9–10月",
+            "climate": "地中海與大陸型氣候混合",
+            "language": "土耳其語",
+            "currency": "土耳其里拉 (TRY)",
+            "attractions": [
+                "藍色清真寺",
+                "卡帕多奇亞奇岩",
+                "棉花堡梯田",
+                "托普卡比皇宮"
+            ],
+            "packageCount": 4
+        }
+    ],
+    "testimonials": [
+        {
+            "id": "rev-001",
+            "name": "陳小玲",
+            "avatar": "https://i.pravatar.cc/100?img=47",
+            "rating": 5,
+            "packageId": "pkg-004",
+            "packageName": "冰島極光追蹤 7 日",
+            "date": "2024-02-15",
+            "comment": "這是我這輩子最難忘的旅程！導遊阿偉在凌晨兩點叫醒我們衝出去看極光，那一刻感動到哭。回來已經幫三個朋友推薦這個行程了！"
+        },
+        {
+            "id": "rev-002",
+            "name": "林志豪",
+            "avatar": "https://i.pravatar.cc/100?img=12",
+            "rating": 5,
+            "packageId": "pkg-001",
+            "packageName": "日本北海道賞雪 5 日",
+            "date": "2024-02-03",
+            "comment": "帶父母第一次出國，選了這個行程完全正確！行程鬆緊適中，導遊很有耐心，爸媽說要明年再來一次。"
+        },
+        {
+            "id": "rev-003",
+            "name": "王雅婷",
+            "avatar": "https://i.pravatar.cc/100?img=32",
+            "rating": 5,
+            "packageId": "pkg-003",
+            "packageName": "峇里島身心靈療癒 6 日",
+            "date": "2024-03-20",
+            "comment": "泳池別墅超美，SPA 是我做過最棒的！導遊帶我們去的在地市場完全不像觀光景點，吃到超好吃的沙嗲。強烈推薦蜜月旅行！"
+        },
+        {
+            "id": "rev-004",
+            "name": "張育誠",
+            "avatar": "https://i.pravatar.cc/100?img=3",
+            "rating": 4,
+            "packageId": "pkg-002",
+            "packageName": "義大利文藝復興深度 8 日",
+            "date": "2024-04-10",
+            "comment": "行程規劃非常有深度，不是走馬看花。只扣一顆星是因為威尼斯那晚飯店位置稍遠，但整體仍非常滿意，導遊的藝術史解說超精彩！"
+        },
+        {
+            "id": "rev-005",
+            "name": "劉怡君",
+            "avatar": "https://i.pravatar.cc/100?img=25",
+            "rating": 5,
+            "packageId": "pkg-006",
+            "packageName": "土耳其古文明探索 10 日",
+            "date": "2024-05-18",
+            "comment": "洞穴飯店和熱氣球是我的 bucket list，一次全完成！旅行社的 LINE 客服也很即時，出發前有任何問題都馬上回覆，安心感十足。"
+        },
+        {
+            "id": "rev-006",
+            "name": "黃建明",
+            "avatar": "https://i.pravatar.cc/100?img=8",
+            "rating": 5,
+            "packageId": "pkg-008",
+            "packageName": "紐西蘭南島壯闊山河 9 日",
+            "date": "2024-01-22",
+            "comment": "高空跳傘和峽灣遊輪都是一輩子難忘的體驗。導遊是在地毛利人後裔，分享了很多正規旅行書上不會有的故事。已預訂明年北島行程！"
+        }
+    ],
+    "team": [
+        {
+            "id": "team-001",
+            "name": "吳美華",
+            "title": "創辦人暨總經理",
+            "avatar": "https://i.pravatar.cc/200?img=47",
+            "bio": "擁有 20 年旅遊業經驗，曾任職國際連鎖旅行社亞太區主管，足跡遍及 68 個國家。以「讓每位旅客都像被當作家人對待」作為公司核心信念。",
+            "specialties": [
+                "歐洲精品行程",
+                "商務旅遊規劃",
+                "危機處理"
+            ],
+            "languages": [
+                "中文",
+                "英文",
+                "日文"
+            ]
+        },
+        {
+            "id": "team-002",
+            "name": "陳大偉",
+            "title": "資深領隊 ／ 日本線專家",
+            "avatar": "https://i.pravatar.cc/200?img=15",
+            "bio": "旅居日本 5 年，考取日本語能力測驗 N1，帶領日本行程超過 300 團。熱愛拉麵與昭和文化，客人暱稱他「拉麵偉」。",
+            "specialties": [
+                "日本全境",
+                "北海道深度旅遊",
+                "溫泉文化"
+            ],
+            "languages": [
+                "中文",
+                "日文",
+                "英文"
+            ]
+        },
+        {
+            "id": "team-003",
+            "name": "許瑩瑩",
+            "title": "歐洲線產品經理",
+            "avatar": "https://i.pravatar.cc/200?img=35",
+            "bio": "曾於義大利佛羅倫斯留學，深度研究文藝復興藝術史，負責規劃所有歐洲精品行程，與多家義大利當地文化機構有長期合作。",
+            "specialties": [
+                "義大利",
+                "南法",
+                "希臘",
+                "藝術文化旅遊"
+            ],
+            "languages": [
+                "中文",
+                "義大利文",
+                "英文"
+            ]
+        },
+        {
+            "id": "team-004",
+            "name": "鄭建志",
+            "title": "客服暨 OP 主任",
+            "avatar": "https://i.pravatar.cc/200?img=11",
+            "bio": "旅行社後勤作業 12 年資歷，掌管訂房、機票、簽證等所有行政作業，確保每個行程零疏漏。24 小時緊急聯絡人。",
+            "specialties": [
+                "簽證辦理",
+                "機票規劃",
+                "緊急應變"
+            ],
+            "languages": [
+                "中文",
+                "英文"
+            ]
+        },
+        {
+            "id": "team-005",
+            "name": "林思穎",
+            "title": "數位行銷暨 LINE 客服",
+            "avatar": "https://i.pravatar.cc/200?img=28",
+            "bio": "負責管理社群媒體與官方 LINE 帳號，平均回覆時間不超過 10 分鐘。旅行達人，最愛的行程是峇里島療癒線。",
+            "specialties": [
+                "LINE 客服",
+                "社群經營",
+                "行銷企劃"
+            ],
+            "languages": [
+                "中文",
+                "英文"
+            ]
+        }
+    ],
+    "faqs": [
+        {
+            "id": "faq-001",
+            "category": "報名訂位",
+            "question": "如何報名行程？",
+            "answer": "您可以透過官網線上報名、LINE 官方帳號傳訊詢問，或直接致電本社。確認有名額後，須於 3 個工作天內繳交訂金（全額 30%）以確保位置。"
+        },
+        {
+            "id": "faq-002",
+            "category": "報名訂位",
+            "question": "最少幾人成團？",
+            "answer": "各行程成團人數不同，通常為 6–10 人。若人數不足，本社將提前 21 天通知您，並提供全額退款或改搭其他日期。"
+        },
+        {
+            "id": "faq-003",
+            "category": "費用與付款",
+            "question": "可以分期付款嗎？",
+            "answer": "出發前 60 天以上報名者，可分兩期繳款：報名時繳 30% 訂金，出發前 45 天繳清餘款。出發前 45 天內報名須一次繳清全額。"
+        },
+        {
+            "id": "faq-004",
+            "category": "費用與付款",
+            "question": "取消行程會有什麼費用？",
+            "answer": "依出發前天數計算：60 天前取消免手續費；30–59 天收 20%；15–29 天收 40%；8–14 天收 60%；7 天內或未出席收 100%。建議加購旅遊不便險。"
+        },
+        {
+            "id": "faq-005",
+            "category": "簽證與文件",
+            "question": "需要自己辦簽證嗎？",
+            "answer": "大多數行程本社提供代辦簽證服務，費用已包含在行程中。少數目的地需旅客自行辦理（如美國、加拿大），報名後我們會提供詳細文件清單。"
+        },
+        {
+            "id": "faq-006",
+            "category": "簽證與文件",
+            "question": "護照有效期限需要多久？",
+            "answer": "建議護照有效期限在出發日起算至少 6 個月以上。若您的護照即將到期，請提前換發，以免影響行程。"
+        },
+        {
+            "id": "faq-007",
+            "category": "行程安排",
+            "question": "可以客製化行程嗎？",
+            "answer": "可以！10 人以上的私人團可完全客製化，包含目的地、天數、住宿等級與活動內容。請透過 LINE 與我們聯繫，由專人為您規劃。"
+        },
+        {
+            "id": "faq-008",
+            "category": "行程安排",
+            "question": "行程中如遇緊急狀況怎麼辦？",
+            "answer": "本社提供 24 小時緊急聯絡專線，領隊亦受過完整急救訓練。所有行程均投保旅行業責任險，建議旅客自行加購旅遊平安險以獲得更完整保障。"
+        },
+        {
+            "id": "faq-009",
+            "category": "裝備與準備",
+            "question": "出發前需要準備什麼？",
+            "answer": "報名確認後 2 周內，本社會寄送「出發前準備手冊」，包含氣候建議、必備藥物、行李清單、當地注意事項等完整資訊。"
+        },
+        {
+            "id": "faq-010",
+            "category": "特殊需求",
+            "question": "有飲食限制或行動不便，可以參加嗎？",
+            "answer": "歡迎！請於報名時告知您的需求，本社將盡力協調餐廳、飯店與交通工具。部分體力需求較高的行程（如冰島、紐西蘭）建議事先與我們確認適合性。"
+        }
+    ],
+    "blogPosts": [
+        {
+            "id": "blog-001",
+            "title": "2025 年出國必做：5 個讓旅程更順暢的準備技巧",
+            "summary": "從行前規劃到當地應對，資深領隊傳授多年帶團心得，讓你的每次旅程都零壓力出發。",
+            "author": "陳大偉",
+            "authorId": "team-002",
+            "publishedAt": "2024-11-15",
+            "readingMinutes": 6,
+            "tags": [
+                "旅遊準備",
+                "出發前必讀",
+                "旅遊技巧"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800"
+        },
+        {
+            "id": "blog-002",
+            "title": "冰島極光攝影全攻略：構圖、設定到後製一次學會",
+            "summary": "如何在零下 10 度用顫抖的手拍出令人驚嘆的極光照片？我們的攝影導師分享所有秘訣。",
+            "author": "吳美華",
+            "authorId": "team-001",
+            "publishedAt": "2024-10-28",
+            "readingMinutes": 10,
+            "tags": [
+                "冰島",
+                "攝影",
+                "極光"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800"
+        },
+        {
+            "id": "blog-003",
+            "title": "峇里島 5 個不能錯過的在地早餐",
+            "summary": "遠離觀光客聚集的飯店早餐，跟著本地人吃才是正確的峇里島打開方式。",
+            "author": "林思穎",
+            "authorId": "team-005",
+            "publishedAt": "2024-09-10",
+            "readingMinutes": 4,
+            "tags": [
+                "峇里島",
+                "美食",
+                "在地文化"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800"
+        },
+        {
+            "id": "blog-004",
+            "title": "帶長輩出國的 10 個貼心眉角",
+            "summary": "行程選擇、體力評估到醫療準備，讓帶著爸媽出國這件事，成為一段美好的親子回憶。",
+            "author": "陳大偉",
+            "authorId": "team-002",
+            "publishedAt": "2024-08-22",
+            "readingMinutes": 7,
+            "tags": [
+                "親子旅遊",
+                "長輩出遊",
+                "行程規劃"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800"
+        }
+    ],
+    "promotions": [
+        {
+            "id": "promo-001",
+            "code": "EARLY2025",
+            "title": "早鳥優惠",
+            "description": "出發日 60 天前完成報名，享全程 8% 折扣",
+            "discountType": "percentage",
+            "discountValue": 8,
+            "validUntil": "2025-12-31",
+            "applicablePackages": "all",
+            "minimumGroupSize": 1
+        },
+        {
+            "id": "promo-002",
+            "code": "COUPLE500",
+            "title": "雙人同行優惠",
+            "description": "雙人同行，每人折扣 NT$500",
+            "discountType": "fixed",
+            "discountValue": 500,
+            "validUntil": "2025-06-30",
+            "applicablePackages": [
+                "pkg-002",
+                "pkg-003",
+                "pkg-006"
+            ],
+            "minimumGroupSize": 2
+        },
+        {
+            "id": "promo-003",
+            "code": "SUMMER10",
+            "title": "夏日限定 10 折",
+            "description": "6–8 月出發指定行程享 NT$1,000 折扣",
+            "discountType": "fixed",
+            "discountValue": 1000,
+            "validUntil": "2025-08-31",
+            "applicablePackages": [
+                "pkg-003",
+                "pkg-007"
+            ],
+            "minimumGroupSize": 1
+        }
+    ]
+}
