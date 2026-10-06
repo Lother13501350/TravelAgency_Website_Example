@@ -1,32 +1,39 @@
 # Travel Agency Website
 
-A responsive travel agency frontend built with **React, TypeScript, Vite, and Tailwind CSS**. It demonstrates a complete catalog browsing flow: discover destinations, filter travel packages, inspect itineraries, and open an enquiry form.
+A React travel-catalog frontend with package search, filters, itinerary details, and a simulated enquiry form.
 
-這是一個旅行社網站前端作品，展示行程探索、條件篩選、詳情頁與詢問表單。內容使用本機 mock data，適合用來理解元件設計與旅遊商品瀏覽流程。
+## Overview and status
 
-## Features
+This is a **frontend demo** using local sample packages, reviews, and editorial content. It demonstrates browsing and component design rather than a booking business. The enquiry modal validates fields and displays a local success state; it does not send a request, take payment, or create a booking.
 
-- Package search by name, with destination, difficulty, price, and duration filters.
-- Sorting by popularity, rating, and price, plus an empty state when no packages match.
-- Package detail pages with itinerary information and departure dates.
-- An enquiry modal with client-side validation and a simulated submission state.
-- Home, destinations, about, FAQ, and blog pages.
-- Responsive layouts, reusable package cards, ratings, navigation, and a testimonial carousel.
+## Screenshot
 
-## Tech stack
+![Travel package catalog with sample data](docs/screenshots/packages.jpg)
 
-| Layer | Technology |
-| --- | --- |
-| UI | React, TypeScript |
-| Routing | React Router |
-| Styling | Tailwind CSS, PostCSS |
-| Development & build | Vite, TypeScript compiler |
-| Code checks | ESLint |
-| Deployment configuration | Vercel with SPA rewrites |
+Local capture on October 6, 2026. Packages, prices, reviews, company history, and contact details are demo content, not claims about the repository owner's business.
 
-## Run locally
+## Key features
 
-Use a Node.js version supported by the locked Vite release; Node.js 22.12+ or 24 is suitable.
+- Search by package name and filter by destination, difficulty, price, and duration.
+- Sort by popularity, rating, or price, with a no-results state.
+- Package details with itineraries and departure dates.
+- Client-side enquiry validation and a simulated submission state.
+- Home, destinations, about, FAQ, and blog routes.
+- Shared navigation, cards, ratings, and testimonial components.
+
+## Architecture and tech stack
+
+```text
+src/data/mock-data.json -> React page state -> filters / sorting -> package cards
+React Router -> catalog and detail pages -> enquiry modal (local simulation)
+Vite + TypeScript -> dist/ -> static host with SPA fallback
+```
+
+React and TypeScript implement the UI; React Router handles navigation; Tailwind CSS/PostCSS provide styling. There are no database or server API dependencies. ESLint is configured for code checks.
+
+## Getting started
+
+Use Node.js 22.12+ or 24 and npm.
 
 ```bash
 git clone https://github.com/Lother13501350/TravelAgency_Website_Example.git
@@ -35,34 +42,38 @@ npm ci
 npm run dev
 ```
 
-Open the local URL printed by Vite. No environment variables or database are required.
+Open the URL printed by Vite. No environment variables are required.
 
-## Development commands
+## Build and verification
 
-| Command | Purpose |
-| --- | --- |
-| `npm run dev` | Start the development server. |
-| `npm run build` | Run TypeScript project checks and build into `dist/`. |
-| `npm run lint` | Run ESLint. |
-| `npm run preview` | Preview the production build locally. |
+```bash
+npm run build
+npm run preview
+npm run lint
+```
+
+`build` runs TypeScript project checks and writes `dist/`. The October 6, 2026 audit repaired missing/inconsistent optional entries in the lockfile; a clean install and build then passed. No direct application dependency version was changed by that repair.
+
+Lint currently reports two existing issues: state updates inside a navigation effect and a `prefer-const` finding in package filtering. The build workflow verifies installation and compilation; lint is documented separately until these findings are resolved. There is no automated unit or browser test suite. A manual browser check confirmed package search reduced eight packages to the matching Hokkaido package.
 
 ## Project structure
 
 ```text
-src/
-├── components/       # Shared layout, navigation, cards, and enquiry modal
-├── pages/            # Route-level screens
-├── data/mock-data.json
-├── utils/            # Price formatting
-├── App.tsx           # Route definitions
-└── main.tsx          # Application entry
-vercel.json           # Build settings and SPA route fallback
+src/components/       Shared layout, navigation, cards, enquiry modal
+src/pages/            Route-level screens
+src/data/mock-data.json
+src/utils/            Price formatting
+src/App.tsx           Route definitions
+src/main.tsx          Entry point
+vercel.json           Static build and SPA route fallback
 ```
 
-Filtering and sorting happen in the browser against `src/data/mock-data.json`. React Router connects the screens, while shared components keep package presentation and navigation consistent.
+## Deployment and engineering highlights
 
-## Current scope
+Run `npm run build` and serve `dist/`. Routes must fall back to `index.html`; `vercel.json` configures this for Vercel. A verified public demo URL is not currently listed.
 
-This is a **frontend demo**, with sample packages, reviews, and editorial content. The enquiry form validates input and displays a success state locally; it does not send a request, create a booking, process a payment, or trigger a real follow-up.
+The engineering scope is client-side state, filtering/sorting, reusable components, routing, and form states. Sample content and a simulated form limit the project's value as full-stack evidence. No license file is included.
 
-For deployment, run `npm run build` and serve `dist/`. Hosts must rewrite application routes to `index.html`; the included `vercel.json` configures this for Vercel.
+## Dependency audit snapshot
+
+The October 6, 2026 lockfile audit reported 17 affected dependency entries. These include no critical entries in this snapshot. This is a dependency advisory result, not proof of exploitability in this deployment. No automatic upgrade was applied; review affected runtime paths and verify a security update separately.
